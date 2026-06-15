@@ -8,13 +8,22 @@ I'm currently between roles after a redundancy and using the time to build thing
 
 ## What I'm building
 
-My current project is a personal weather station system built around a WeatherFlow Tempest station mounted on my house in Selhurst. It's a multi-repo project that I've built from scratch:
+### Tempest Weather Station System
+A multi-repo personal weather station project built around a WeatherFlow Tempest
+station mounted on my house in Selhurst, South London.
 
 | Repo | What it does |
 |---|---|
 | [tempest-logger](https://github.com/stetho/tempest-logger) | Polls the Tempest API every 10 minutes and stores observations in SQLite, running 24/7 in Docker |
-| [tempest-analytics](https://github.com/stetho/tempest-analytics) | Pure Python library of meteorological calculations — Zambretti forecaster, Beaufort scale, clear sky index, frost risk, storm tracking and more. 105 tests. |
-| [tempest-dashboard](https://github.com/stetho/tempest-dashboard) | Dark-themed Flask dashboard with live conditions, 24-hour charts, and derived analytics. Live at [tempest.23wwc.cloud](https://tempest.23wwc.cloud) |
+| [tempest-analytics](https://github.com/stetho/tempest-analytics) | Pure Python library of meteorological calculations — Zambretti forecaster, Beaufort scale, clear sky index, frost risk, storm tracking and more. 120 tests. |
+| [tempest-dashboard](https://github.com/stetho/tempest-dashboard) | Dark-themed Flask dashboard with live conditions, 24-hour charts, records tracker and derived analytics. Live at [tempest.23wwc.cloud](https://tempest.23wwc.cloud) |
+| [tempest-camera](https://github.com/stetho/tempest-camera) | Captures frames from a rooftop RTSPS camera stream and composites live weather readings onto the image as an overlay, updated every 10 minutes |
+
+### Aircraft & Environmental Noise Correlation
+Using tar1090 ADS-B data from a Raspberry Pi in the loft, audio extracted from
+a Unifi G3 Flex rooftop camera via FFmpeg, and Tempest weather data to investigate
+whether wind direction affects aircraft noise levels over South London. Data flows
+into InfluxDB with Grafana for visualisation.
 
 ---
 
