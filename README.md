@@ -33,6 +33,8 @@ into InfluxDB with Grafana for visualisation.
 
 **Shazam** (2009–2013) — IT Operations Manager. Scaled infrastructure during hyper-growth, pioneering predictive auto-scaling and leading the transition to Infrastructure-as-Code with Puppet.
 
+**Research In Motion (BlackBerry)** (2003-2008) - Provisioning Infrastructure Engineer. Maintained 24/7 operational reliability of RIM's global carrier provisioning infrastructure (WebLogic/Oracle) at peak scale — supporting 85 million active devices across virtually every carrier and MVNO worldwide, underpinning service entitlement, service book delivery, and carrier billing for RIM's entire consumer device estate.
+
 **Apple UK** (1989–1996) — Technical Support Engineer. Part of Apple's foundational UK expansion.
 
 ---
