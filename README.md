@@ -97,7 +97,7 @@ GitHub Actions workflows to automatically build and push Docker images to a
 container registry on every push to main, replacing the current manual deployment
 process across all tempest repos.
 
-*Planned*
+*Complete*
 
 ---
 
