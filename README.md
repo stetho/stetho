@@ -19,6 +19,25 @@ station mounted on my house in Selhurst, South London.
 | [tempest-dashboard](https://github.com/stetho/tempest-dashboard) | Dark-themed Flask dashboard with live conditions, 24-hour charts, records tracker, storm predictor and derived analytics. Live at [tempest.23wwc.cloud](https://tempest.23wwc.cloud) | ✅ Live |
 | [tempest-camera](https://github.com/stetho/tempest-camera) | Captures frames from a rooftop RTSPS camera stream, composites live weather readings and Zambretti forecast onto the image, and generates a daily timelapse video | ✅ Live |
 
+### Projects Backup Tool
+A Python CLI tool that intelligently backs up a developer's projects directory.
+Scans for project types (Python, Go, Node etc.), checks each has a remote git
+origin, excludes venvs and build artifacts automatically, creates a manifest with
+metadata, and supports multiple backup destinations (local, Dropbox, Google Drive,
+Nextcloud) via a config file. Designed to be useful to any developer, not just me.
+
+*Planned*
+
+### National Lottery Analyser
+A data analysis tool built on the complete history of UK National Lottery draw
+results (publicly available as CSV). Finds genuinely interesting patterns in the
+data — numbers drawn more often on certain days, numbers appearing every March
+but never in July, longest gaps between appearances, most common pairs and
+triplets. Not a prediction tool — just honest interrogation of a large dataset.
+Includes a natural language query interface powered by the Claude API.
+
+*Planned*
+
 ### ISO 27001 Control Evidence Collector
 A Python CLI tool that automatically gathers evidence for common ISO 27001 Annex A
 technical controls from a Linux system - disk encryption status, password policies,
