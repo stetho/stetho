@@ -19,14 +19,6 @@ station mounted on my house in Selhurst, South London.
 | [tempest-dashboard](https://github.com/stetho/tempest-dashboard) | Dark-themed Flask dashboard with live conditions, 24-hour charts, records tracker, storm predictor and derived analytics. Live at [tempest.23wwc.cloud](https://tempest.23wwc.cloud) | ✅ Live |
 | [tempest-camera](https://github.com/stetho/tempest-camera) | Captures frames from a rooftop RTSPS camera stream, composites live weather readings and Zambretti forecast onto the image, and generates a daily timelapse video | ✅ Live |
 
-### Aircraft & Environmental Noise Correlation
-Using tar1090 ADS-B data from a Raspberry Pi in the loft, audio extracted from
-a Unifi G3 Flex rooftop camera via FFmpeg, and Tempest weather data to investigate
-whether wind direction affects aircraft noise levels over South London. Data flows
-into InfluxDB with Grafana for visualisation.
-
-*In progress*
-
 ### ISO 27001 Control Evidence Collector
 A Python CLI tool that automatically gathers evidence for common ISO 27001 Annex A
 technical controls from a Linux system - disk encryption status, password policies,
