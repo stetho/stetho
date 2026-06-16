@@ -55,6 +55,14 @@ currency summaries. Built to be useful to any Monzo customer.
 
 *Planned*
 
+### Google Coral Cloud Cover Classifier
+Using a Google Coral USB TPU accelerator connected to the homelab server to run
+real-time ML inference on the rooftop weather camera feed. Classifies sky conditions
+(clear, partly cloudy, overcast, stormy) directly from the image and cross-validates
+against the clear sky index calculated from solar radiation data.
+
+*Planned*
+
 ### Tube Delay Predictor
 Uses the TfL open API to analyse historical delay patterns and predict which lines
 are likely to be delayed at what times of day. Genuinely useful for South London
