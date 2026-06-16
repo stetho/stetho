@@ -28,6 +28,26 @@ Nextcloud) via a config file. Designed to be useful to any developer, not just m
 
 *Planned*
 
+### JobTrail — Job Search Intelligence
+A self-hosted job search tracker built as a Flask web app with a dark theme,
+multi-user support, and a full contacts/organisations CRM. Tracks every application
+through its complete lifecycle with a timeline of events, not just a status field.
+
+Designed to answer questions a spreadsheet can't: which sources convert best,
+how long does the average response take, which agencies are actually performing,
+and what needs following up today.
+
+Features:
+- Full pipeline view with funnel metrics and conversion rates
+- Organisations and contacts CRM — track agencies, companies and individual
+  recruiters separately, with contacts shared across applications
+- Complete event timeline per application — every email, call and interview logged
+- Source intelligence — differentiate direct, agency, LinkedIn, referral and headhunted
+- Follow-up reminders and cold application detection
+- Deployable as a Docker container for anyone to self-host
+
+*In progress*
+
 ### National Lottery Analyser
 A data analysis tool built on the complete history of UK National Lottery draw
 results (publicly available as CSV). Finds genuinely interesting patterns in the
