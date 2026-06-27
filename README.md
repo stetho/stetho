@@ -46,7 +46,7 @@ Features:
 - Follow-up reminders and cold application detection
 - Deployable as a Docker container for anyone to self-host
 
-*Paused - I got Capacities to bend to my will and use that for tracking my job applications*
+*Pausedi* - I got Capacities to bend to my will and use that for tracking my job applications. Writing a job tracking system when you should be looking for a job is a distraction.
 
 ### National Lottery Analyser
 A data analysis tool built on the complete history of UK National Lottery draw
@@ -56,7 +56,7 @@ but never in July, longest gaps between appearances, most common pairs and
 triplets. Not a prediction tool — just honest interrogation of a large dataset.
 Includes a natural language query interface powered by the Claude API.
 
-*Abandoned* I was looking for projects with large amounts of data and this seemed an abvious choice but the Lottery company no longer publish all he result.
+*Abandoned* I was looking for projects with large amounts of data and this seemed an abvious choice but the Lottery company no longer publish all the result.
 
 ### ISO 27001 Control Evidence Collector
 A Python CLI tool that automatically gathers evidence for common ISO 27001 Annex A
@@ -83,9 +83,7 @@ commuters and a good excuse to do some proper data analysis.
 *Started* In order to make predictions you need a lot of data. tfl-delay-collector was created to collect that data. It's been running 48 hours as of 27 June 26 so it will be a long time before stage 2.
 
 ### Mini Job Queue System
-A lightweight job queue implementation in Go - a learning project that covers
-goroutines, channels, persistence and worker pools. Go's concurrency model makes
-it a natural fit for this kind of problem.
+A lightweight job queue implementation in Go - a learning project that covers goroutines, channels, persistence and worker pools. Go's concurrency model makes it a natural fit for this kind of problem.
 
 *Planned*
 
@@ -101,7 +99,7 @@ infrastructure.
 A tool that generates improv scene setups from random parameters - location,
 relationship, object, game - with suggested structures and exercises. Built with
 the Claude API. A deliberately fun project from someone with a background in
-improv comedy.
+improv comedy. Think of it as computerising Clive Anderson.
 
 *Planned*
 
@@ -118,6 +116,31 @@ container registry on every push to main, replacing the current manual deploymen
 process across all tempest repos.
 
 *Complete*
+
+### Beautiful Dead Ends
+I've often been aware of things in general that people say can't be done because it's very difficult. Maths has a lot of these so I set out to understand - for myself - why they're impossible. Follow along in beautiful-dead-ends as I try and put the pieces together.
+
+*In Progress*
+
+### Everything I learned at DeepMind
+It turns out that Artifical Intelligence and Machine Learning are quite important topics. When I joined DeepMind as their first IT guy I didn't realise how important it would be but I took the opportunity to learn as much as I could. In what-i-learned-about-ai I've tried to document all of it in an accessible way. Unfortunately I quickly discovered that explaining the equations leads to explaining the equations that explain the equations and it just got messy. So this repo is essentially a series of cheat-sheets for me but I hope others find it useful. 
+
+### Various Data Projects
+uk-climate-analysis is my attempt to address a certain aspect of the "warm summers" we keep having. I think it's the only repo where I get angry about something!
+
+sen-exclusions-analysis was inspired by a conversation with my social worker wife. I didn't actually find what I went looking for but I did find something else.
+
+crime-stats-uk - the main thing I learned from this is that the UK's largest police for - the one that covers when I live - is absolutely useless at supplying data to aata.police.uk. 
+
+### tier-zero-grimoire 
+A tool I wrote initially for use at DM. Export all your support tickets and your company knowledge base, run this script on the collected data, Receive data that can be pasted into a Tier 0 LLM powered support chatbot. There's three versions the only difference originating from me testing which mainstream LLM (Gemini, Claude, ChatGPT) returned the best interpretation of the supplied documetation.
+
+### Personal nonsense
+ha-blind-spots Do you have Home Assistant? Do you have motion sensors and smart lighting? Does every motion sensor in room X control a light in room X? No? You're missing an automation. That's it - it looks for sensible matches between inputs and outputs (e.g. a light and a motion sensor as opposed to a humidity sensor and a robot vacuum) and lists things that you might have missed. 
+
+mlops-homelab The scripts I used to build a basic ML Workflow in my homelab so I can keep my MLOps knowledge up to date and attempt to deploy large models on a Kubernetes cluster running on some Raspbery Pis. Because I can.
+
+content-coding engineering pipeline that implements academic qualitative content analysis paradigms at scale. 
 
 ---
 
