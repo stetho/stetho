@@ -46,7 +46,7 @@ Features:
 - Follow-up reminders and cold application detection
 - Deployable as a Docker container for anyone to self-host
 
-*In progress*
+*Paused - I got Capacities to bend to my will and use that for tracking my job applications*
 
 ### National Lottery Analyser
 A data analysis tool built on the complete history of UK National Lottery draw
@@ -56,7 +56,7 @@ but never in July, longest gaps between appearances, most common pairs and
 triplets. Not a prediction tool — just honest interrogation of a large dataset.
 Includes a natural language query interface powered by the Claude API.
 
-*Planned*
+*Abandoned* I was looking for projects with large amounts of data and this seemed an abvious choice but the Lottery company no longer publish all he result.
 
 ### ISO 27001 Control Evidence Collector
 A Python CLI tool that automatically gathers evidence for common ISO 27001 Annex A
@@ -64,14 +64,6 @@ technical controls from a Linux system - disk encryption status, password polici
 open ports, running services, user accounts, sudo access, failed login attempts and
 more. Produces a structured report mapped to ISO 27001 controls. Built by a certified
 ISO 27001 auditor with 35 years of enterprise IT experience.
-
-*Planned*
-
-### Monzo Spending Intelligence
-A Python dashboard that reads from a live Monzo-connected Google Sheet via the
-Google Sheets API and produces monthly spending breakdowns, subscription detection
-with price change alerts, unusual spending flags, savings rate tracking and foreign
-currency summaries. Built to be useful to any Monzo customer.
 
 *Planned*
 
@@ -88,7 +80,7 @@ Uses the TfL open API to analyse historical delay patterns and predict which lin
 are likely to be delayed at what times of day. Genuinely useful for South London
 commuters and a good excuse to do some proper data analysis.
 
-*Planned*
+*Started* In order to make predictions you need a lot of data. tfl-delay-collector was created to collect that data. It's been running 48 hours as of 27 June 26 so it will be a long time before stage 2.
 
 ### Mini Job Queue System
 A lightweight job queue implementation in Go - a learning project that covers
