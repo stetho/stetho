@@ -46,24 +46,14 @@ Features:
 - Follow-up reminders and cold application detection
 - Deployable as a Docker container for anyone to self-host
 
-*Pausedi* - I got Capacities to bend to my will and use that for tracking my job applications. Writing a job tracking system when you should be looking for a job is a distraction.
-
-### National Lottery Analyser
-A data analysis tool built on the complete history of UK National Lottery draw
-results (publicly available as CSV). Finds genuinely interesting patterns in the
-data — numbers drawn more often on certain days, numbers appearing every March
-but never in July, longest gaps between appearances, most common pairs and
-triplets. Not a prediction tool — just honest interrogation of a large dataset.
-Includes a natural language query interface powered by the Claude API.
-
-*Abandoned* I was looking for projects with large amounts of data and this seemed an abvious choice but the Lottery company no longer publish all the result.
+*Paused* - I got Capacities to bend to my will and use that for tracking my job applications. Writing a job tracking system when you should be looking for a job is a distraction but I still think it will be a genuinely useful tool when finished.
 
 ### ISO 27001 Control Evidence Collector
 A Python CLI tool that automatically gathers evidence for common ISO 27001 Annex A
 technical controls from a Linux system - disk encryption status, password policies,
 open ports, running services, user accounts, sudo access, failed login attempts and
 more. Produces a structured report mapped to ISO 27001 controls. Built by a certified
-ISO 27001 auditor with 35 years of enterprise IT experience.
+ISO 27001 auditor with 35 years of enterprise IT experience (me).
 
 *Planned*
 
@@ -98,15 +88,8 @@ infrastructure.
 ### Improv Scene Generator
 A tool that generates improv scene setups from random parameters - location,
 relationship, object, game - with suggested structures and exercises. Built with
-the Claude API. A deliberately fun project from someone with a background in
-improv comedy. Think of it as computerising Clive Anderson.
-
-*Planned*
-
-### Wordle Solver
-An algorithm that solves Wordle optimally using information theory - picks the
-best starting word and narrows down candidates after each guess. A clean showcase
-of algorithmic thinking with a very shareable output.
+the Claude and Gemini APIs. A deliberately fun project from someone with a background in
+improv comedy (me). Think of it as computerising Clive Anderson.
 
 *Planned*
 
@@ -146,11 +129,13 @@ content-coding engineering pipeline that implements academic qualitative content
 
 ## Background
 
-**Google DeepMind** (2013-2025) - IT Operations Manager. Built and scaled the global IT operations framework from early-stage startup through Alphabet acquisition, supporting 6,000+ personnel including 4,000+ AI researchers. Designed infrastructure for landmark AI milestones including AlphaGo, AlphaFold, and Gemini. Engineered the data privacy architecture for DeepMind Health, processing live NHS patient data under medical regulatory frameworks.
+**Google DeepMind** (2013-2026) - IT Operations Manager. Built and scaled the global IT operations framework from early-stage startup through Alphabet acquisition, supporting 6,000+ personnel including 4,000+ AI researchers. Designed infrastructure for landmark AI milestones including AlphaGo, AlphaFold, and Gemini. Engineered the data privacy architecture for DeepMind Health, processing live NHS patient data under medical regulatory frameworks.
 
 **Shazam** (2009-2013) - IT Operations Manager. Scaled infrastructure during hyper-growth, pioneering predictive auto-scaling and leading the transition to Infrastructure-as-Code with Puppet.
 
 **Research In Motion (BlackBerry)** (2003-2008) - Provisioning Infrastructure Engineer. Maintained 24/7 operational reliability of RIM's global carrier provisioning infrastructure (WebLogic/Oracle) at peak scale - supporting 85 million active devices across virtually every carrier and MVNO worldwide, underpinning service entitlement, service book delivery, and carrier billing for RIM's entire consumer device estate.
+
+**Contracting Work** (1996-2003) - Somehow after getting made redundant from Apple I started off contracting as a support person in many London based Advertising Agencies and Publishing Companies mainly showing them how to install Quark XPress but ended up a Lotus Domino & Microsoft Exchange administrator.
 
 **Apple UK** (1989-1996) - Technical Support Engineer. Part of Apple's foundational UK expansion.
 
