@@ -10,7 +10,17 @@ I'm currently between roles after a redundancy and using the time to build thing
 
 ### Tempest Weather Station System
 A multi-repo personal weather station project built around a WeatherFlow Tempest
-station mounted on my house in Selhurst, South London. Live at [tempest.23wwc.cloud](https://tempest.23wwc.cloud).
+station mounted on my house in South London. I noticed that this weather station
+produces a wealth of data through it API but it does nothing with it. The App 
+will tell you how hot it is and if it's raining or not but that's it. So I started
+with a simple web page to display the API data and then I Googled what I could do
+with this rich source of hyperlocal weather data. That led to things like the 
+Zambretti forecaster and the Beaufort scale. I then pasted the API output into 
+Gemini, Claude and ChatGPT and asked what they could do with the data. And now it's
+all gone a bit crazy. Live at [tempest.23wwc.cloud](https://tempest.23wwc.cloud) so
+you too can see how much information you can get out of a weather station. If you
+have a Tempest weatherstation and want to try this, you'll need a machine running 24/7
+but it should run on a Raspberry Pi without breaking a sweat.
 
 | Repo | What it does | Status |
 |---|---|---|
