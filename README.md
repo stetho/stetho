@@ -86,7 +86,7 @@ commuters and a good excuse to do some proper data analysis.
 *In progress* - tfl-delay-collector has been running since June 2026 and has accumulated over 1.2 million records. Three analysis notebooks are complete covering data caveats, delay patterns by corridor, and further analysis. The Thameslink corridor emerges as the worst performer; Victoria terminal shows near-zero delays. Full predictive modelling follows once the dataset matures.
 
 ### gedcom-toolkit
-A Python CLI tool for analysing GEDCOM family tree files as directed graphs. Commands include stats, validate, findid, findrelationship, rn, and sources, with 94 tests. Further commands in development covering places, duplicates, completeness, diff, surnames, timeline, and geographic export.
+A Python CLI tool for analysing GEDCOM family tree files as directed graphs. Commands include stats, validate, findid, findrelationship, rn, and sources, with 94 tests. Further commands in development covering places, duplicates, completeness, diff, surnames, timeline, and geographic export. And if you've landed here because you're researching your family tree and your surname is Thompson (or Whitmore, Todd, Toone, Cowan and many others) my tree is on Ancestry.
 
 *In progress*
 
