@@ -112,9 +112,11 @@ improv comedy (me). Think of it as computerising Clive Anderson.
 *Planned*
 
 ### CI/CD Pipeline
-GitHub Actions workflows to automatically build and push Docker images to a
-container registry on every push to main, with no-cache builds to ensure dependencies
-are always fresh.
+GitHub Actions workflows that build and push Docker images to a private registry
+(`registry.stetho.me`) on every push to main, with no-cache builds to guarantee
+dependencies are always fresh. This is the pipeline that deploys the entire Tempest
+stack, gedcom-toolkit, and everything else marked "Live" above — push to main, live
+in minutes, no manual steps.
 
 *Complete*
 
@@ -122,6 +124,20 @@ are always fresh.
 I've often been aware of things in general that people say can't be done because it's very difficult. Maths has a lot of these so I set out to understand - for myself - why they're impossible. Follow along in beautiful-dead-ends as I try and put the pieces together.
 
 Topics covered so far: Collatz Conjecture, Hadwiger Conjecture, Kaprekar's Constant, Untouchable Numbers, Abundant Numbers, Goldbach's Conjecture, Derangements, and Waring's Problem.
+
+*In progress*
+
+### MLOps Homelab Cluster
+
+A bare-metal, multi-architecture (x86_64 + ARM64) Kubernetes cluster built to keep my
+MLOps skills current without cloud costs. An HP ProLiant runs the control plane, an
+Intel i5 + NVIDIA GTX 5060 Ti handles GPU training, and a pool of Raspberry Pis runs
+S3-compatible storage (MinIO), experiment tracking (MLflow), and cluster observability.
+
+Validated with an end-to-end predictive maintenance pipeline: the Pi pool streams its
+own telemetry into MinIO, a GPU-scheduled PyTorch job trains against it, MLflow tracks
+the run, and the finished model gets served via FastAPI. K3s (Rancher), MinIO, MLflow,
+NVIDIA Container Toolkit, FastAPI.
 
 *In progress*
 
@@ -145,8 +161,6 @@ A tool I wrote initially for use at DeepMind. Export all your support tickets an
 ### Personal nonsense
 **ha-blind-spots** - Do you have Home Assistant? Do you have motion sensors and smart lighting? Does every motion sensor in room X control a light in room X? No? You're missing an automation. That's it - it looks for sensible matches between inputs and outputs and lists things you might have missed. Phase 1 complete and working; Phase 2 (LLM suggestion layer) and Phase 3 (HTML report) in progress.
 
-**mlops-homelab** - The scripts I used to build a basic ML workflow in my homelab so I can keep my MLOps knowledge up to date and attempt to deploy large models on a Kubernetes cluster running on some Raspberry Pis. Because I can.
-
 **content-coding** - Engineering pipeline that implements academic qualitative content analysis paradigms at scale.
 
 ---
@@ -155,7 +169,11 @@ A tool I wrote initially for use at DeepMind. Export all your support tickets an
 
 **Google DeepMind** (2013-2026) - IT Operations Manager. Built and scaled the global IT operations framework from early-stage startup through Alphabet acquisition, supporting 6,000+ personnel including 4,000+ AI researchers. Designed infrastructure for landmark AI milestones including AlphaGo, AlphaFold, and Gemini. Engineered the data privacy architecture for DeepMind Health, processing live NHS patient data under medical regulatory frameworks.
 
-**Shazam** (2009-2013) - IT Operations Manager. Scaled infrastructure during hyper-growth, pioneering predictive auto-scaling and leading the transition to Infrastructure-as-Code with Puppet.
+**Shazam** (2009-2013) - IT Operations Manager. Scaled infrastructure during
+hyper-growth, pioneering predictive auto-scaling and leading the transition to
+Infrastructure-as-Code with Puppet. Built the observability layer that made both
+possible - the same monitoring-first instinct now runs Tempest's telemetry pipeline
+and the homelab cluster.
 
 **Research In Motion (BlackBerry)** (2003-2008) - Provisioning Infrastructure Engineer. Maintained 24/7 operational reliability of RIM's global carrier provisioning infrastructure (WebLogic/Oracle) at peak scale - supporting 85 million active devices across virtually every carrier and MVNO worldwide, underpinning service entitlement, service book delivery, and carrier billing for RIM's entire consumer device estate.
 
@@ -169,8 +187,9 @@ A tool I wrote initially for use at DeepMind. Export all your support tickets an
 
 - Enterprise infrastructure architecture at scale especially when starting at zero
 - Python automation and API integration
-- DevOps, IaC, and real-time telemetry
 - AI governance, data privacy, and compliance frameworks
+- DevOps, IaC and observability — the instinct that shaped my proudest work at Shazam
+  now runs Tempest and the homelab cluster
 - Leading global engineering teams and multi-million pound budgets
 
 ---
